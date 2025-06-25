@@ -563,10 +563,10 @@ body {
     padding: 25px;
     margin-bottom: 40px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
-    -webkit-border-radius:;
-    -moz-border-radius:;
-    -ms-border-radius:;
-    -o-border-radius:;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
 }
 .sitemap-section h3 {
     font-family: var(--font-heading);
@@ -600,10 +600,10 @@ body {
     text-decoration: none;
     font-weight: 500;
     transition: color 0.3s ease;
-    -webkit-transition:;
-    -moz-transition:;
-    -ms-transition:;
-    -o-transition:;
+    -webkit-transition: color 0.3s ease;
+    -moz-transition: color 0.3s ease;
+    -ms-transition: color 0.3s ease;
+    -o-transition: color 0.3s ease;
 }
 .sitemap-section a:hover{
     color: #fff;
@@ -1263,7 +1263,7 @@ body {
     border: 1px solid var(--border-color);
     border-radius: 5px;
     font-size: 1rem;
-    color: var(--text-color);
+    color: var(--dark-bg);
     outline: none;
     transition: border-color 0.3s ease, box-shadow 0.3s ease;
     -webkit-transition: border-color 0.3s ease, box-shadow 0.3s ease;
@@ -1479,7 +1479,7 @@ body {
     border: 1px solid var(--border-color);
     border-radius: 5px;
     font-size: 1rem;
-    color: var(--text-color);
+    color: var(--dark-bg);
     outline: none;
     transition: border-color 0.3s ease, box-shadow 0.3s ease;
     -webkit-transition: border-color 0.3s ease, box-shadow 0.3s ease;
